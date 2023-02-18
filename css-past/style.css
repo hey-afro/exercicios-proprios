@@ -24,7 +24,7 @@ header{
     text-align: center;
     
     padding-bottom: 20px;
-    box-shadow: inset 2px 2px 60px rgba(0, 0, 0, 0.689);
+    box-shadow: inset 0px 20px 60px rgba(0, 0, 0, 0.587);
 }
 header h1{
     padding: 20px 0px;
@@ -50,14 +50,15 @@ main{
     background-repeat: repeat;
     background-size: contain;
     background-position: center;
-    height: 120vh;
+    height: 140vh;
     text-align: center;    
     padding: 55px;
+    box-shadow: inset 0px 40px 50px #540b0d2e;
     
 }
 section{
     padding: 30px;
-    padding-top: 60px;
+    padding-top: 110px;
     background-color: rgba(255, 255, 255, 0.267);
     border-radius: 23%;
     width: 500px;
