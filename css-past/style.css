@@ -53,6 +53,7 @@ main{
     background-position: center;
     text-align: center;    
     padding: 55px;
+    min-width: 400px; 
     box-shadow: inset 0px 40px 50px #540b0d2e;
     
 }
@@ -61,7 +62,7 @@ section{
     padding-top: 110px;
     background-color: rgba(255, 255, 255, 0.267);
     border-radius: 20%;
-    min-width: 300px;
+    max-width: 600px;
     margin: auto;
     box-shadow: inset 2px 2px 15px rgba(0, 0, 0, 0.66);
 }
