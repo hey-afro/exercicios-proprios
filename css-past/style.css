@@ -17,7 +17,6 @@ html,body{
 }
 body{
     background-color: black;
-    min-width: 400px; 
     
 }
 
@@ -26,7 +25,6 @@ header{
     text-align: center;
     padding-bottom: 20px;
     box-shadow: inset 0px 20px 60px rgba(0, 0, 0, 0.587);
-    min-width: 400px;
 }
 header h1{
     padding: 20px 0px;
@@ -63,7 +61,7 @@ section{
     background-color: rgba(255, 255, 255, 0.267);
     border-radius: 20%;
     min-width: 400px;
-    max-width: 700px;
+
     margin: auto;
     box-shadow: inset 2px 2px 15px rgba(0, 0, 0, 0.66);
 }
@@ -90,7 +88,6 @@ footer{
     background-color: var(--cor05);
     color: white;
     margin-top: auto;
-    min-width: 400px;
 }
 footer a{
     color: white;
