@@ -16,7 +16,7 @@ html,body{
     padding: 0%;
 }
 body{
-    background-color: white;
+    background-color: black;
 }
 
 header{
@@ -47,19 +47,24 @@ header a:hover{
 }
 main{
     background-image: url(../imagens/front-cad.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    height: 120vh;
     text-align: center;    
     padding: 55px;
+    
 }
 section{
     padding: 30px;
-    padding-top: 40px;
-    background-color: rgba(255, 255, 255, 0.37);
+    padding-top: 60px;
+    background-color: rgba(255, 255, 255, 0.267);
     border-radius: 23%;
     width: 500px;
     min-height: 400px;
     min-width: 300px;
     margin: auto;
-    box-shadow: inset 2px 2px 15px rgba(0, 0, 0, 0.578);
+    box-shadow: inset 2px 2px 15px rgba(0, 0, 0, 0.66);
    
 }
 main h2{
@@ -71,7 +76,7 @@ main h2{
 }
 main p{
     font-family: var(--fonte-padrao);
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.313);
 }
 main img{
