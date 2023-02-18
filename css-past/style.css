@@ -61,7 +61,7 @@ section{
     background-color: rgba(255, 255, 255, 0.267);
     border-radius: 20%;
     min-width: 400px;
-
+    max-width: 700px;
     margin: auto;
     box-shadow: inset 2px 2px 15px rgba(0, 0, 0, 0.66);
 }
