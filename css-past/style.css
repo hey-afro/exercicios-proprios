@@ -81,6 +81,7 @@ main p{
 }
 main img{
     padding: 30px 0px;
+    min-width: auto;
     max-width: 300px; 
     border-radius: 50%;
 }
