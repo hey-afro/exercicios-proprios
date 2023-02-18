@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;600;700&family=Gloria+Hallelujah&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Kalam:wght@300;400;700&family=Merienda:wght@300;400;500;600;700;800;900&family=Mukta:wght@200;300;400;500;600;700;800&family=Ultra&display=swap');
+
+:root{
+    --cor01: #3e5641;
+    --cor02: #7dcd85;
+    --cor03: #f2c14e;
+    --cor04: #ba9593;
+    --cor05: #540b0e;
+
+    --fonte-padrao:arial,verdana,'sans-serif';
+    --fonte-destaque:'Dancing Script', 'cursive';
+}
+
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: var(--cor02);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor01),var(--cor05)) ;
+    text-align: center;
+    
+    padding-bottom: 20px;
+    box-shadow: inset 2px 2px 60px rgba(0, 0, 0, 0.689);
+}
+header h1{
+    padding: 20px 0px;
+    margin: 0%;
+    font-variant: small-caps;
+    font-size: 5.5em;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.221);
+}
+header a{
+    font-family: var(--fonte-padrao);
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.151);
+}
+header a:hover{
+    text-decoration: underline;
+
+}
+main{
+    background-image: url(../imagens/front-cad.jpg);
+     text-align: center;    
+    padding: 55px;
+}
+section{
+    padding: 30px;
+    padding-top: 40px;
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 23%;
+    width: 500px;
+    min-height: 400px;
+    min-width: 300px;
+    margin: auto;
+    box-shadow: inset 2px 2px 15px rgba(0, 0, 0, 0.578);
+   
+}
+main h2{
+    padding-top: 20px;
+    font-family: var(--fonte-padrao);
+    font-size: 30px;
+    margin: 0%;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.274);
+}
+main p{
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.313);
+}
+main img{
+    padding: 30px 0px;
+    max-width: 300px; 
+    border-radius: 50%;
+}
+
+footer{
+    background-color: var(--cor05);
+  
+    color: white;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    padding: 10px 0px;
+   text-align: center;
+   margin:0% ;
+}
+footer a:hover{
+    color: black;
+    text-decoration: underline;
+}
