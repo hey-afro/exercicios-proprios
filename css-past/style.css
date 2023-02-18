@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;600;700&family=Gloria+Hallelujah&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Kalam:wght@300;400;700&family=Merienda:wght@300;400;500;600;700;800;900&family=Mukta:wght@200;300;400;500;600;700;800&family=Ultra&display=swap');
 
 :root{
-    --cor01: #3e5641;
-    --cor02: #7dcd85;
-    --cor03: #f2c14e;
-    --cor04: #ba9593;
-    --cor05: #540b0e;
+--cor01: #3e5641;
+--cor02: #7dcd85;
+--cor03: #f2c14e;
+--cor04: #ba9593;
+--cor05: #540b0e;
 
-    --fonte-padrao:arial,verdana,'sans-serif';
-    --fonte-destaque:'Dancing Script', 'cursive';
+--fonte-padrao:arial,verdana,'sans-serif';
+--fonte-destaque:'Dancing Script', 'cursive';
 }
 
 html,body{
@@ -16,7 +16,7 @@ html,body{
     padding: 0%;
 }
 body{
-    background-color: var(--cor02);
+    background-color: white;
 }
 
 header{
@@ -42,6 +42,7 @@ header a{
 }
 header a:hover{
     text-decoration: underline;
+    color: white;
 
 }
 main{
