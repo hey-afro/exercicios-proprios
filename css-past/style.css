@@ -47,7 +47,7 @@ header a:hover{
 }
 main{
     background-image: url(../imagens/front-cad.jpg);
-     text-align: center;    
+    text-align: center;    
     padding: 55px;
 }
 section{
@@ -75,6 +75,7 @@ main p{
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.313);
 }
 main img{
+
     padding: 30px 0px;
     max-width: 300px; 
     border-radius: 50%;
@@ -82,7 +83,6 @@ main img{
 
 footer{
     background-color: var(--cor05);
-  
     color: white;
 }
 footer a{
@@ -91,8 +91,8 @@ footer a{
 }
 footer p{
     padding: 10px 0px;
-   text-align: center;
-   margin:0% ;
+    text-align: center;
+    margin:0% ;
 }
 footer a:hover{
     color: black;
