@@ -17,7 +17,7 @@ html,body{
 }
 body{
     background-color: black;
-    min-width: 900px;
+    min-width: 100px; 
 }
 
 header{
@@ -86,6 +86,7 @@ main img{
 }
 
 footer{
+    ;
     background-color: var(--cor05);
     color: white;
 }
